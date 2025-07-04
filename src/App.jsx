@@ -1,34 +1,14 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Footer from "./portfolio/footer/Footer";
-import MainContent from "./portfolio/main-content/MainContent";
-import Navbar from "./portfolio/navbar/Navbar";
-import { faArrowAltCircleUp } from "@fortawesome/free-regular-svg-icons";
-import { Analytics } from "@vercel/analytics/react";
-
-function App() {
-  return (
-    <>
-      <div className="font-primary">
-        <Analytics />
-        <Navbar />
-        <main>
-          <MainContent />
-        </main>
-        <Footer />
-      </div>
-      <a
-        href="#"
-        className="top tooltip tooltip-top tooltip"
-        data-tip="Back to Top"
-      >
-        <FontAwesomeIcon
-          className="lg:w-14 lg:h-14 w-10 h-10 glass rounded-full"
-          icon={faArrowAltCircleUp}
-          size="2xl"
-        />{" "}
-      </a>
-    </>
-  );
-}
-
-export default App;
+<section className="py-20 px-6 md:px-20 bg-gradient-to-b from-gray-900 to-gray-800 text-center">
+  <h1 className="text-4xl md:text-6xl font-bold mb-4">
+    Hi, I'm Ben Gruca
+  </h1>
+  <p className="text-lg md:text-xl text-gray-300 mb-6">
+    Graduate Student at University of Southern California
+  </p>
+  <p className="text-md text-gray-400 mb-6">
+    Communicator. Creative. Strategist. Exploring the intersection of technology and storytelling.
+  </p>
+  <button className="bg-white text-black px-6 py-2 rounded-full hover:bg-gray-200 transition">
+    View My Work
+  </button>
+</section>
