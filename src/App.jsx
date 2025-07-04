@@ -12,3 +12,6 @@
     View My Work
   </button>
 </section>
+
+
+update hero section
